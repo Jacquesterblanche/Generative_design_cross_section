@@ -1,4 +1,4 @@
-# J Terblanche
+# Jacques Terblanche
 # 22548602
 
 import random
