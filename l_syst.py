@@ -1,3 +1,6 @@
+# J Terblanche
+# 22548602
+
 import matplotlib.pyplot as plt
 import random
 from PIL import Image
