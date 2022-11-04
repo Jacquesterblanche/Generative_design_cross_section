@@ -1,3 +1,6 @@
+# Jacques Terblanche
+# 22548602
+
 from abaqus import *
 from math import *
 import testUtils
