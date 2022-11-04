@@ -14,10 +14,12 @@ After program has finished
 ----------------------------
 
 To view generated data
+
 4) View resultant angles of population in log.txt in the data folder
 5) View generetaed coordinates in Cross_sections and view generated coordinate data in Coordinate_storage
 
 To generate a 3D model of your chosen individual
+
 6) Copy the Abaqus.py script to your Abaqus CAE working directory 
 7) Copy your selected design from Coordinate_storage to your Abaqus CAE working directory and rename to input_data.json
 8) Launch Abaqus CAE (with GUI)
