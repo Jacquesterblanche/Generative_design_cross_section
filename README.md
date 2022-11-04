@@ -10,7 +10,7 @@ To launch the program
 3) Run main.py
 
 ----------------------------
-After program has finished
+After program has finished (log file states "Done")
 ----------------------------
 
 To view generated data
