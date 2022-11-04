@@ -1,6 +1,3 @@
-# Jacques Terblanche
-# 22548602
-
 from abaqus import *
 from math import *
 import testUtils
@@ -30,17 +27,19 @@ if os.path.exists("angle.txt"):
 
 
 # Parameters 
+p = open('input_parameters.json')
+input_parameters  = json.load(p)
 
-cavity_total_depth = 20/2 # mm
-thickness = 1.4 # mm
-num_cells = 8 # Number of cells
-bottom_cavity_height = 6 # mm
-bottom_thickness = 3 # mm
+cavity_total_depth = input_parameters[0]/2 # mm
+thickness = input_parameters[1] # mm
+num_cells = input_parameters[2] # Number of cells
+bottom_cavity_height = input_parameters[3] # mm
+bottom_thickness = input_parameters[4] # mm
 
-pressure_load = 0.04 # MPa
-Gravity_load = 9810.0 # mm/s^2
+pressure_load = input_parameters[5] # MPa
+Gravity_load = input_parameters[6] # mm/s^2
 
-mesh_size = 2.7
+mesh_size = 3
 mesh_min = 0.5
 
 
